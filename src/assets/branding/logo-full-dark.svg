@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" fill="none" role="img" aria-label="Dynamic Dashboard — AI-Powered Insights. Real-Time Impact.">
+  <!-- ======================================================
+       Full horizontal lockup — DARK theme
+       Icon uses white/light strokes on transparent bg;
+       "DYNAMIC" white, "DASHBOARD" gradient blue-purple
+  ====================================================== -->
+
+  <defs>
+    <linearGradient id="dashGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#6B98FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ---- D-mark icon — dark variant (white strokes, same accent colors) ---- -->
+  <g transform="translate(10, 10) scale(0.75)">
+    <rect x="24" y="22" width="13" height="116" rx="2" fill="#FFFFFF"/>
+    <rect x="24" y="22" width="52" height="13" rx="2" fill="#FFFFFF"/>
+    <rect x="24" y="125" width="52" height="13" rx="2" fill="#FFFFFF"/>
+    <path d="M74,22 Q138,22 138,80 Q138,138 74,138" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <!-- Bars — same accent colors -->
+    <rect x="44" y="96" width="14" height="42" rx="2.5" fill="#2DD4BF"/>
+    <rect x="62" y="78" width="14" height="60" rx="2.5" fill="#4B7BEC"/>
+    <rect x="80" y="62" width="14" height="76" rx="2.5" fill="#6B98FF"/>
+    <rect x="98" y="48" width="14" height="90" rx="2.5" fill="#A78BFA"/>
+    <!-- Sparkle -->
+    <path d="M105 42 L107.5 33 L110 42 L119 44.5 L110 47 L107.5 56 L105 47 L96 44.5 Z" fill="#A78BFA"/>
+    <!-- Circuit lines -->
+    <line x1="24" y1="60" x2="6"  y2="60" stroke="#6B98FF" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="5" cy="60" r="4.5" fill="#6B98FF"/>
+    <line x1="16" y1="60" x2="16" y2="82" stroke="#6B98FF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="16" y1="82" x2="6"  y2="82" stroke="#6B98FF" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="5" cy="82" r="4.5" fill="#6B98FF"/>
+    <line x1="24" y1="104" x2="6" y2="104" stroke="#6B98FF" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="5" cy="104" r="4.5" fill="#6B98FF"/>
+  </g>
+
+  <!-- ---- Wordmark — dark variant ---- -->
+  <!-- "DYNAMIC" — white, extra-bold -->
+  <text x="125" y="62"
+    font-family="'Inter', 'Segoe UI', Arial, sans-serif"
+    font-weight="800" font-size="42" letter-spacing="2"
+    fill="#FFFFFF">DYNAMIC</text>
+
+  <!-- "DASHBOARD" — light blue-to-purple gradient -->
+  <text x="125" y="106"
+    font-family="'Inter', 'Segoe UI', Arial, sans-serif"
+    font-weight="800" font-size="42" letter-spacing="2"
+    fill="url(#dashGradDark)">DASHBOARD</text>
+
+  <!-- Tagline -->
+  <line x1="125" y1="122" x2="147" y2="122" stroke="#596579" stroke-width="1"/>
+  <text x="152" y="126"
+    font-family="'Inter', 'Segoe UI', Arial, sans-serif"
+    font-size="10" font-weight="500" letter-spacing="1.5"
+    fill="#596579">AI-POWERED INSIGHTS.  REAL-TIME IMPACT.</text>
+  <line x1="498" y1="122" x2="516" y2="122" stroke="#596579" stroke-width="1"/>
+</svg>
